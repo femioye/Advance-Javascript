@@ -6,7 +6,7 @@ var Word = function (lettersSelected) {
     this.selectedWord = lettersSelected[Math.floor(Math.random() * lettersSelected.length)];
     this.wordDisplayed = [];
 
-    this.matches = 0;
+    this.wordMatches = 0;
 
 
     this.emptyDisplayWord = function (wordCharacter) {
